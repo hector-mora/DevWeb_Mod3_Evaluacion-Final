@@ -1,0 +1,51 @@
+body {
+  background-color: #b2dfdb;
+}
+
+header {
+  padding-top: 1vw;
+}
+
+.container {
+  width: 100%;
+  /*margin: 0 2vw;*/
+}
+
+.barra-superior {
+  width: inherit;
+  max-width: inherit;
+  height: 10.5rem;
+  margin: 0;
+  z-index: -1;
+  position:fixed;
+}
+
+.fondo {
+  background: url("../images/Rio_Celeste.jpg");
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: inherit;
+  max-width: inherit;
+  min-height: 900px;
+  z-index: -1;
+  position:fixed;
+  margin-top: 10.5rem;
+  opacity: 0.5;
+}
+
+.menu a i {
+    margin: 0 0;
+}
+
+.textos {
+  text-align: justify;
+}
+
+.card-img {
+  padding-left: 0 !important; 
+}
+
+.pub-ico {
+  margin-top: 3px;
+}
