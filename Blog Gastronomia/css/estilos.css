@@ -1,4 +1,4 @@
-
+/* estilos cuerpo pagina */
 body {
   background: url("../images/fondo.jpg") no-repeat top Left fixed;
   background-size: cover;
@@ -31,16 +31,35 @@ body {
   background-color: black;
 }
 
+.textos {
+  color: #c60f13;
+}
+
+/* estilos cabecera pagina */
 .cabecera {
   color: #e0e0e0;
   border-right-style: inset;
   border-right-width: 1px;
 }
 
+/* estilos navegacion pagina */
 .Navegacion {
   opacity: 0.9;
 }
 
+.buscar-txt {
+  padding-right: 0;
+}
+
+.buscar-btn {
+  padding: 0 0;
+}
+
+.historial-btn {
+  text-align: left;
+}
+
+/* estilos publicaciones pagina */
 .ultimas-pub {
   background-color: #bcaaa4;
 }

@@ -27,29 +27,76 @@
         </div>
 
         <!--Contenido Pagina-->
-        <div class="medium-12 large-12 columns">
+        <div class="small-12 medium-12 large-12 columns">
           <div class="row large-uncollapse">
             <!--Contenido busqueda-navegacion-favoritos-historial -->
-            <div class="medium-4 large-4 columns">
+            <div class="small-12 medium-4 large-4 columns small-order-2 medium-order-1">
               <div class="callout secondary Navegacion">
                 <!--Busqueda -->
-                <h1>Busqueda</h1>
+                <form>
+                  <div class="row">
+                    <div class="column small-10 medium-10 large-10 buscar-txt">
+                      <input type="text" name="name" placeholder="Buscar...">
+                    </div>
+                    <div class="column small-2 medium-2 large-2 buscar-btn">
+                      <button type="submit" name="enviar" class="button"><i class="step fi-magnifying-glass"></i></button>
+                    </div>
+                  </div>
+                </form>
                 <!--Navegacion -->
-                <h1>Navegacion</h1>
+                <div class="column row">
+                  <div class="button-group expanded stacked">
+                    <a href="#" class="button hollow alert">Inicio</a>
+                    <a href="#" class="button hollow alert">Mi Plato Favorito</a>
+                    <a href="#" class="button hollow alert">Mis Recetas</a>
+                  </div>
+                </div>
                 <!--Favoritos -->
-                <p>Favoritos:</p>
+                <p class="textos">Favoritos:</p>
+                <div class="row large-uncollapse">
+                  <div class="columns small-4 medium-4 large-4">
+                    <img src="images/fav1.jpg" alt="img-fav-1"class="thumbnail">
+                  </div>
+                  <div class="columns small-4 medium-4 large-4">
+                    <img src="images/fav2.jpg" alt="img-fav-2"class="thumbnail">
+                  </div>
+                  <div class="columns small-4 medium-4 large-4">
+                    <img src="images/fav3.jpg" alt="img-fav-3"class="thumbnail">
+                  </div>
+                </div>
+                <div class="row large-uncollapse">
+                  <div class="columns small-4 medium-4 large-4">
+                    <img src="images/fav4.jpg" alt="img-fav-4"class="thumbnail">
+                  </div>
+                  <div class="columns small-4 medium-4 large-4">
+                    <img src="images/fav5.jpg" alt="img-fav-5"class="thumbnail">
+                  </div>
+                  <div class="columns small-4 medium-4 large-4">
+                    <img src="images/fav6.jpg" alt="img-fav-6"class="thumbnail">
+                  </div>
+                </div>
                 <!--Historial -->
-                <p>Historial:</p>
+                <p class="textos">Historial:</p>
+                <div class="column row">
+                  <div class="button-group expanded stacked">
+                    <a href="#" class="clear button alert historial-btn">Brochetas de cordero</a>
+                    <a href="#" class="clear button alert historial-btn">Pulpo a la parrilla</a>
+                    <a href="#" class="clear button alert historial-btn">Chuletas de cerdo a la parrilla</a>
+                    <a href="#" class="clear button alert historial-btn">Lomo de cerdo con queso y tocino</a>
+                    <a href="#" class="clear button alert historial-btn">Pizza a la parrilla</a>
+                    <a href="#" class="clear button alert historial-btn">Salmón asado con salsa de aguacate</a>
+                  </div>
+                </div>
               </div>
             </div>
 
             <!--Contenido ultimas publicaciones -->
-            <div class="medium-8 large-8 columns">
+            <div class="small-12 medium-8 large-8 columns small-order-1 medium-order-2">
               <!--Ultima publicacion -->
               <div class="callout secondary">
                 <!--publicacion -->
                 <h3>Carne a la Parrilla en 5 Pasos</h3>
-                <p>15 de Octubre del 2018</p>
+                <p class="textos">15 de Octubre del 2018</p>
                 <img src="images/Carne-a-la-parilla.jpg" alt="img-pub-1"class="thumbnail">
                 <p><strong>Paso #1:</strong> Si los filetes son gruesos o ligeramente gruesos (de 2,5 centímetros o más), ablandar las fibras musculares, de esta forma nuestra carne a la parrilla quedará extra tierna.</p>
                 <p><strong>Paso #2:</strong> En una bolsa de congelación tipo Zip añade la carne, y luego los ingredientes del adobo o marinado. Deja que reposen a temperatura ambiente unos <strong>20 o 30 Minutos</strong>.</p>
@@ -73,7 +120,7 @@
                       <img src="images/usuario1.png" alt="usuario1">
                     </div>
                     <div class="small-10 medium-10 large-10 column">
-                      <p><strong>USUARIO1:</strong> Excelente receta, fácil y rápido.</p>
+                      <p><strong>Usuario1:</strong> Excelente receta, fácil y rápido.</p>
                     </div>
                   </div>
                 </div>
@@ -84,7 +131,7 @@
                       <img src="images/usuario2.png" alt="usuario2">
                     </div>
                     <div class="small-10 medium-10 large-10 column">
-                      <p><strong>USUARIO2:</strong> Gracias por compartir, vamos a intentar.</p>
+                      <p><strong>Usuario2:</strong> Gracias por compartir, vamos a intentar.</p>
                     </div>
                   </div>
                 </div>
@@ -95,7 +142,7 @@
               <div class="callout secondary">
                 <!--publicacion -->
                 <h3>Pinchos de Camarón con Maracuyá</h3>
-                <p>01 de Octubre del 2018</p>
+                <p class="textos">01 de Octubre del 2018</p>
                 <img src="images/pinchos-camaron.jpg" alt="img-pub-1"class="thumbnail">
                 <p> Esta receta de pinchos de camarón a la parrilla se prepara con camarones marinados en una salsa de maracuyá y achiote. Esta receta de camarones lleva varios de mis ingredientes favoritos. Para empezar me encanta cocinar con camarones. Pueden ser utilizados en muchos platillos diferentes: ensaladas, ceviches, empanadas, arroces, sopas, y más. También me encantan las maracuyas, me parece que la combinación de maracuya + camarón es riquísima, así que preparé un adobo de maracuya para los camarones. Este adobo también tiene otro de mis ingredientes favoritos: achiote. El achiote se utiliza en muchos platos tradicionales latinos, a veces simplemente se le llama “color”, ya que añade un color anaranjado rojizo a los alimentos.</p>
                 <hr>
@@ -114,7 +161,7 @@
                       <img src="images/usuario1.png" alt="usuario1">
                     </div>
                     <div class="small-10 medium-10 large-10 column">
-                      <p><strong>USUARIO1:</strong> Excelente receta, una combinación realmente deliciosa.</p>
+                      <p><strong>Usuario1:</strong> Excelente receta, una combinación realmente deliciosa.</p>
                     </div>
                   </div>
                 </div>
@@ -125,7 +172,7 @@
                       <img src="images/usuario2.png" alt="usuario2">
                     </div>
                     <div class="small-10 medium-10 large-10 column">
-                      <p><strong>USUARIO2:</strong> No puedo esperar a probar esta receta. Gracias.</p>
+                      <p><strong>Usuario2:</strong> No puedo esperar a probar esta receta. Gracias.</p>
                     </div>
                   </div>
                 </div>
@@ -136,7 +183,7 @@
                       <img src="images/usuario1.png" alt="usuario1">
                     </div>
                     <div class="small-10 medium-10 large-10 column">
-                      <p><strong>USUARIO3:</strong> Amo los camarones y salsitas de maracuyá, esta receta me viene bien. Muchas gracias.</p>
+                      <p><strong>Usuario3:</strong> Amo los camarones y salsitas de maracuyá, esta receta me viene bien. Muchas gracias.</p>
                     </div>
                   </div>
                 </div>
