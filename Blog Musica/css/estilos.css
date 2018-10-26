@@ -56,17 +56,7 @@ body {
 /*contenido principal*/
 .publicaciones {
   margin-bottom: 10px;
-
-}
-
-.input-group {
-  margin-bottom: 10px;
-}
-
-.card-img {
-  width: 100%;
-  padding: 10px;
-  margin: 0 0;
+  opacity: 0.95;
 }
 
 .com-img {
